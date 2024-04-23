@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+}
+.body{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: azure;
+    font-family: 'Bacasime Antique';
+    text-align: center;
+}
+.pic{
+    border: 10px solid white;
+    width: 70%;    
+}   

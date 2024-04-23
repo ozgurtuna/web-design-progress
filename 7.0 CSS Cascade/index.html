@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="outer-box" class="box" style="border: 10px solid; border-color: rgb(86, 0, 166);" >
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box" style="background-color: red; ">
+        <p class="white-text" style="color: aliceblue;">White Text</p>
+      </div>
+    </div>
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box" style="background-color: red;">
+        <p class="white-text" style="color: aliceblue;">White Text</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
